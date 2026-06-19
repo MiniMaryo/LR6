@@ -46,6 +46,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Location = new System.Drawing.Point(541, 87);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(213, 117);
@@ -128,7 +131,7 @@
             // 
             // textBoxModel
             // 
-            this.textBoxModel.Location = new System.Drawing.Point(181, 180);
+            this.textBoxModel.Location = new System.Drawing.Point(181, 130);
             this.textBoxModel.Name = "textBoxModel";
             this.textBoxModel.Size = new System.Drawing.Size(306, 20);
             this.textBoxModel.TabIndex = 9;
@@ -160,7 +163,7 @@
             // comboBoxBrand
             // 
             this.comboBoxBrand.FormattingEnabled = true;
-            this.comboBoxBrand.Location = new System.Drawing.Point(181, 130);
+            this.comboBoxBrand.Location = new System.Drawing.Point(181, 180);
             this.comboBoxBrand.Name = "comboBoxBrand";
             this.comboBoxBrand.Size = new System.Drawing.Size(306, 21);
             this.comboBoxBrand.TabIndex = 13;
